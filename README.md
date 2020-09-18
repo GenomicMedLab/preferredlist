@@ -6,9 +6,9 @@ This project identifies lists of genes and hotspots that flags variants for revi
 that would otherwise be filtered by variant calling and annotation pipeline.
 
 Our initial target is a short list (10s of genes) from the following sources:
-  - PeCAN ([resource](https://civicdb.org/home)) ([notes]())
+  - PeCAN ([resource](https://pecan.stjude.cloud/)) ([notes]())
   - CIViC ([resource](https://civicdb.org/home)) ([notes]())
-  - Gröbner and Worst, et al. ([paper](https://civicdb.org/home)) ([notes]())
+  - Gröbner and Worst, et al. ([paper](https://doi.org/10.1038/nature25480)) ([notes]())
   
 ## Results
 In progress!
