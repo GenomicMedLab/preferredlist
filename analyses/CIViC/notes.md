@@ -15,7 +15,7 @@ CIViC evidence [was searched](https://civicdb.org/search/evidence/7aa158ab-1aa4-
 - Evidence direction supports
 
 ## Evidence to passlist roll-up
-The [resulting list of variants](data/CIViC_evidence_2020-09-18T16_09_39.csv) was small, mostly categorical.
+The [resulting list of variants](../../data/CIViC_evidence_2020-09-18T16_09_39.csv) was small, mostly categorical.
 - Fusions:
   - KIAA1549-BRAF (Pediatric Low-grade Glioma (PLGG))
 - Amplifications:

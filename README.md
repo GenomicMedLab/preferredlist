@@ -7,7 +7,7 @@ that would otherwise be filtered by variant calling and annotation pipeline.
 
 Our initial target is a short list (10s of genes) from the following sources:
   - PeCAN ([resource](https://pecan.stjude.cloud/)) ([notes]())
-  - CIViC ([resource](https://civicdb.org/home)) ([notes]())
+  - CIViC ([resource](https://civicdb.org/home)) ([notes](analyses/CIViC/notes.md))
   - Gröbner and Worst, et al. ([paper](https://doi.org/10.1038/nature25480)) ([notes]())
   
 ## Results
