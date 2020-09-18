@@ -6,24 +6,21 @@ This project identifies lists of genes and hotspots that flags variants for revi
 that would otherwise be filtered by variant calling and annotation pipeline.
 
 Our initial target is a short list (10s of genes) from the following sources:
-  - PeCAN ([resource](https://pecan.stjude.cloud/)) ([notes]())
-  - CIViC ([resource](https://civicdb.org/home)) ([notes](analyses/CIViC/notes.md))
-  - Gröbner and Worst, et al. ([paper](https://doi.org/10.1038/nature25480)) 
-    ([notes](analyses/Grobner_and_Worst/notes.md))
+-  [CIViC](https://civicdb.org/home)
+-  [Gröbner and Worst, et al.](https://doi.org/10.1038/nature25480)
+-  [PeCAN](https://pecan.stjude.cloud/)
   
 ## Results
-In progress!
+- CIViC: 5 pediatric clinically-relevant genes with generalized mutations / deletions / loss
+  ([notes](analyses/CIViC/notes.md))
+- Gröbner and Worst, et al.: 77 pediatric-relevant SMGs (23 are also adult SMGs)
+  ([notes](analyses/Grobner_and_Worst/notes.md))
+- PeCAN: Results not available or reproducible from available data
+  ([notes]())
   
 ## Reproducibility
 
 ### Directory Structure
-To aid in reproducibility, all data and results generated are stored in 
-the `data/` and `results/` directories, respectively. Analyses are individually
+To aid in reproducibility, all data generated are stored in 
+the `data/` directory. Analyses are individually
 linked in this README, but also findable in the `analyses/` directory.
-
-### Package Installation
-To reproduce the environment for the notebooks provided in this file, you may use the 
-[pipenv](https://pypi.org/project/pipenv/) environment management tool:
-```shell script
-pipenv sync
-```
