@@ -16,11 +16,11 @@ Our initial target is a short list (10s of genes) from the following sources:
 - Gröbner and Worst, et al.: 77 pediatric-relevant SMGs (23 are also adult SMGs)
   ([notes](analyses/Grobner_and_Worst/notes.md))
 - PeCAN: Results not available or reproducible from available data
-  ([notes]())
+  ([notes](analyses/PeCAN/notes.md))
   
 ## Reproducibility
 
 ### Directory Structure
 To aid in reproducibility, all data generated are stored in 
-the `data/` directory. Analyses are individually
-linked in this README, but also findable in the `analyses/` directory.
+the `data/` directory. Analyses (notes) are individually
+linked in this document, but also findable in the `analyses/` directory.
