@@ -1,4 +1,4 @@
-# CIViC Import Notes
+# CIViC Analysis Notes
 
 The CIViC resource is the preferred resource for the 
 [ClinGen Somatic Cancer Pediatric Taskforce](https://clinicalgenome.org/working-groups/somatic/pediatric-task-team/).
