@@ -1,7 +1,6 @@
 # Pediatric Cancer Gene Passlist
 
 ## Introduction
-
 This project identifies lists of genes and hotspots that flags variants for review
 that would otherwise be filtered by variant calling and annotation pipeline.
 
@@ -11,10 +10,11 @@ Our initial target was a short list of pediatric cancer driver genes from the fo
 -  [PeCAN](https://pecan.stjude.cloud/)
   
 ## Results
-- CIViC ([notes](analyses/CIViC/notes.md)): 5 pediatric clinically-relevant genes with 
-  generalized mutations / deletions / loss.
+- CIViC ([notes](analyses/CIViC/notes.md)): [5 pediatric clinically-relevant genes](data/civic_pediatric_genes.txt)
+  with generalized mutations / deletions / loss.
 - Gröbner and Worst, et al. ([notes](analyses/Grobner_and_Worst_2018/notes.md)): 
-  77 pediatric cancer-relevant SMGs (23 are also adult SMGs).
+  [77 pediatric cancer-relevant SMGs](data/grobner_worst_pediatric_smgs.txt) 
+  ([23 are also adult SMGs](data/grobner_worst_overlapping_smgs.txt)).
 - PeCAN ([notes](analyses/PeCAN/notes.md)): summarized SMGs / hotspots not available or reproducible 
   from provided downloads. However, several published studies from major datasets used by PeCAN are listed on 
   their site:
@@ -25,7 +25,7 @@ Our initial target was a short list of pediatric cancer driver genes from the fo
   As a first pass, then, we can collect SMG lists from these datasets at the time of publication in lieu of 
   recomputing and calling our own.
 - Ma, et al. ([notes](analyses/Ma_2018/notes.md)): With some added filtering, 138 pediatric cancer SMGs.
-- Rusch et al. ([notes](analyses/Rusch_2018/notes.md): No SMG / hotspot analysis reported.
+- Rusch et al. ([notes](analyses/Rusch_2018/notes.md)): No SMG / hotspot analysis reported.
 
 After initial evaluation, this leaves us with three sources of SMGs. Refining to genes that appear
 in at least two of these sets leaves us with an initial list of [35 SMGs](data/overlapping_genes.srt.txt). 
