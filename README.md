@@ -22,7 +22,7 @@ Our initial target was a short list of _pediatric cancer_ genes from the followi
   - [Ma et al.](https://doi.org/10.1038/nature25795)
   - [Rusch et al.](https://doi.org/10.1038/s41467-018-06485-7)
   
-  As a first pass, then, we can collect SMG lists from these datasets at the time of publication in lieu of 
+  As a first pass, then, we can collect gene lists from these datasets at the time of publication in lieu of 
   recomputing and calling our own.
 - Ma, et al. ([notes](analyses/Ma_2018/notes.md)): With some added filtering, 138 pediatric cancer SMGs.
 - Rusch et al. ([notes](analyses/Rusch_2018/notes.md)): No SMG / hotspot analysis reported.
