@@ -1,4 +1,4 @@
-# Gröbner and Worst, et al. Analysis Notes
+# Gröbner and Worst et al. Analysis Notes
 
 [The landscape of genomic alterations across childhood cancers](https://doi.org/10.1038/nature25480)
 (Gröbner and Worst et al., _Nature_, 2018) examines commonalities and differences of genomic variants

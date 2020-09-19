@@ -1,4 +1,4 @@
-# Ma, et al. Analysis Notes
+# Ma et al. Analysis Notes
 
 [Pan-cancer genome and transcriptome analyses of 1,699 paediatric leukaemias and solid
 tumours](https://doi.org/10.1038/nature25795) (Ma et al., _Nature_, 2018) examines commonalities
