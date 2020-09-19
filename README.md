@@ -27,8 +27,9 @@ Our initial target was a short list of _pediatric cancer_ genes from the followi
 - Ma, et al. ([notes](analyses/Ma_2018/notes.md)): With some added filtering, 138 pediatric cancer SMGs.
 - Rusch et al. ([notes](analyses/Rusch_2018/notes.md)): No SMG / hotspot analysis reported.
 
-After initial evaluation, this leaves us with three sources of SMGs. Refining to genes that appear
-in at least two of these sets leaves us with an initial list of [40 genes](data/merged_genes.srt.txt). 
+After initial evaluation, this leaves us with three sources of genes. Refining the SMGs that appear
+in at both landscape studies and merging to CIViC leaves us with an initial list of 
+[40 genes](data/merged_genes.srt.txt). 
 Of these, [20 are not reported](data/merged_minus_adult.srt.txt) as adult SMGs in the 
 [Kandoth et al.](https://doi.org/10.1038/nature12634) evaluation of TCGA adult cancers.
 ([notes](analyses/combining_results.md))
