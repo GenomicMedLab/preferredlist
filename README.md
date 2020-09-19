@@ -1,4 +1,4 @@
-# Pediatric Cancer Gene Passlist
+# Pediatric Cancer Gene Preferred List
 
 ## Introduction
 This project identifies a list of recurrently mutated and clinically-relevant genes for inspecting variants
