@@ -1,10 +1,10 @@
 # Pediatric Cancer Gene Passlist
 
 ## Introduction
-This project identifies lists of genes and hotspots that flags variants for review
-that would otherwise be filtered by variant calling and annotation pipeline.
+This project identifies a list of recurrently mutated and clinically-relevant genes for inspecting variants
+that would otherwise be filtered by our variant calling and annotation pipeline.
 
-Our initial target was a short list of pediatric cancer driver genes from the following sources:
+Our initial target was a short list of _pediatric cancer_ genes from the following sources:
 -  [CIViC](https://civicdb.org/home)
 -  [Gröbner and Worst et al.](https://doi.org/10.1038/nature25480)
 -  [PeCAN](https://pecan.stjude.cloud/)
@@ -28,8 +28,8 @@ Our initial target was a short list of pediatric cancer driver genes from the fo
 - Rusch et al. ([notes](analyses/Rusch_2018/notes.md)): No SMG / hotspot analysis reported.
 
 After initial evaluation, this leaves us with three sources of SMGs. Refining to genes that appear
-in at least two of these sets leaves us with an initial list of [35 genes](data/overlapping_genes.srt.txt). 
-Of these, [15 are not reported](data/overlapping_minus_adult.srt.txt) as adult SMGs in the 
+in at least two of these sets leaves us with an initial list of [40 genes](data/merged_genes.srt.txt). 
+Of these, [20 are not reported](data/merged_minus_adult.srt.txt) as adult SMGs in the 
 [Kandoth et al.](https://doi.org/10.1038/nature12634) evaluation of TCGA adult cancers.
 ([notes](analyses/combining_results.md))
 
