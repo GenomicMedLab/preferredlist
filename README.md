@@ -26,7 +26,13 @@ Our initial target was a short list of pediatric cancer driver genes from the fo
   recomputing and calling our own.
 - Ma, et al. ([notes](analyses/Ma_2018/notes.md)): With some added filtering, 138 pediatric cancer SMGs.
 - Rusch et al. ([notes](analyses/Rusch_2018/notes.md): No SMG / hotspot analysis reported.
-  
+
+After initial evaluation, this leaves us with three sources of SMGs. Refining to genes that appear
+in at least two of these sets leaves us with an initial list of [35 SMGs](data/overlapping_genes.srt.txt). 
+Of these, [15 are not reported](data/overlapping_minus_adult.srt.txt)) as adult SMGs in the 
+[Kandoth et al.](https://doi.org/10.1038/nature12634) evaluation of TCGA adult cancers.
+([notes](analyses/combining_results.md))
+
 ## Reproducibility
 
 ### Directory Structure
