@@ -1,8 +1,9 @@
 # Pediatric Cancer Gene Preferred List
 
 ## Introduction
-This project identifies a list of recurrently mutated and clinically-relevant genes for inspecting variants
-that would otherwise be filtered by our variant calling and annotation pipeline.
+This project identifies a list of recurrently mutated and clinically-relevant genes for variants
+that could possibly be missed by automated variant callers due to low sequence coverage and/or low VAF,
+and should be manually reviewed when supporting sequence alignment data exists.
 
 Our initial target was a short list of _pediatric cancer_ genes from the following sources:
 -  [CIViC](https://civicdb.org/home)
