@@ -1,13 +1,17 @@
 # Pediatric Cancer Gene Preferred List
 
 ## Introduction
-This project identifies a list of recurrently mutated and clinically-relevant genes for inspecting variants
-that would otherwise be filtered by our variant calling and annotation pipeline.
+This project identifies a list of recurrently mutated and clinically-relevant genes for variants
+that could possibly be missed by automated variant callers due to low sequence coverage and/or low VAF,
+and should be manually reviewed when supporting sequence alignment data exists.
 
-Our initial target was a short list of _pediatric cancer_ genes from the following sources:
--  [CIViC](https://civicdb.org/home)
+Our initial target was a short list of _pediatric cancer_ SMGs from the following sources:
 -  [Gröbner and Worst et al.](https://doi.org/10.1038/nature25480)
 -  [PeCAN](https://pecan.stjude.cloud/)
+
+In additon, medically actionable genes from the following sources should be considered:
+-  [CIViC](https://civicdb.org/home)
+-  Others?
   
 ## Results
 - CIViC ([notes](analyses/CIViC/notes.md)): [5 pediatric clinically-relevant genes](data/civic_pediatric_genes.txt)
