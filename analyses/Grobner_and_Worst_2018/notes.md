@@ -7,7 +7,7 @@ across multiple pediatric cancer types.
 ## Pediatric pan-cancer SMGs
 [Supplementary tables](../../data/41586_2018_BFnature25480_MOESM3_ESM.xlsx) from the paper 
 were downloaded.
-Supplementary Table 9 contains 77 significantly mutated genes as identified by MuSiC.
+Supplementary Table 9 contains 77 significantly mutated genes as identified by MuSiC on SNVs and Indels.
 These were extracted as a [standalone list](../../data/grober_worst_pediatric_smgs.txt).
 
 Of these, "25" genes were identified in the manuscript as overlapping with adult SMGs. While some of
@@ -19,3 +19,12 @@ identified.
 
 The [overlapping list of 23 genes](../../data/overlapping_smgs.txt) precisely matched the 23 genes 
 listed in Figure 5c.
+
+## Mutation type
+Table S20 makes some broad classifications of gene Likely Functional Events for recurrently altered genes
+
+### CNAs
+GISTIC CNA analysis was performed.
+
+### Fusions
+Fusions did not appear to be a substantial part of the analysis.
